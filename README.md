@@ -7,9 +7,9 @@
 
 #### cd /tmp/nginx_dynamic_upstream/ && bash install.sh && bash consul.sh
 
-#### cp -f ./nginx_dynamic_upstream/nginx/nginx.conf /usr/local/openresty/nginx/conf/nginx.conf
+#### cp -f ./nginx/nginx.conf /usr/local/openresty/nginx/conf/nginx.conf
 
-#### cp ./nginx_dynamic_upstream/nginx/conf.d/default-server.conf /etc/nginx/conf.d/
+#### cp ./nginx/conf.d/default-server.conf /etc/nginx/conf.d/
 
 #### export PATH=$PATH:/usr/local/openresty/luajit/bin:/usr/local/openresty/nginx/sbin:/usr/local/openresty/bin
 
